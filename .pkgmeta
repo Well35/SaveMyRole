@@ -1,0 +1,5 @@
+package-as: SaveMyRole
+
+ignore:
+  - .github
+

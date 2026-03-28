@@ -4,6 +4,7 @@
 local ADDON_NAME = "SaveMyRole"
 
 local wasInGroup    = false
+local loginDone     = false
 local uiCreated     = false
 local talentedHooked = false
 local roleBtn       = nil
@@ -313,9 +314,12 @@ smrFrame:SetScript("OnEvent", function(self, event, arg1)
         if not uiCreated then
             HookTalentFrame()
         end
-        wasInGroup = IsInGroup()
-        if wasInGroup then
-            ApplyPreferredRole()
+        if not loginDone then
+            loginDone = true
+            wasInGroup = IsInGroup()
+            if wasInGroup then
+                ApplyPreferredRole()
+            end
         end
 
     elseif event == "ACTIVE_TALENT_GROUP_CHANGED" then
