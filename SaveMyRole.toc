@@ -1,0 +1,10 @@
+## Interface: 20505
+## Title: Save My Role
+## Notes: Saves your preferred group role per spec and auto-applies it when joining a group.
+## Author: Well35
+## Version: 1.0.1
+## SavedVariables: SaveMyRoleConfig
+## X-License: All Rights Reserved
+## X-Curse-Project-ID: savemyrole
+
+SaveMyRole.lua
