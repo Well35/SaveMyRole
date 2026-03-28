@@ -3,7 +3,7 @@
 ## Notes: Saves your preferred group role per spec and auto-applies it when joining a group.
 ## Author: Well35
 ## Version: @project-version@
-## SavedVariables: SaveMyRoleConfig
+## SavedVariablesPerCharacter: SaveMyRoleConfig
 ## X-License: All Rights Reserved
 ## X-Curse-Project-ID: 1497140
 
