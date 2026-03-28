@@ -5,6 +5,6 @@
 ## Version: 1.0.1
 ## SavedVariables: SaveMyRoleConfig
 ## X-License: All Rights Reserved
-## X-Curse-Project-ID: savemyrole
+## X-Curse-Project-ID: 1497140
 
 SaveMyRole.lua
