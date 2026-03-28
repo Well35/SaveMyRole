@@ -2,7 +2,7 @@
 ## Title: Save My Role
 ## Notes: Saves your preferred group role per spec and auto-applies it when joining a group.
 ## Author: Well35
-## Version: v1.0.2
+## Version: @project-version@
 ## SavedVariables: SaveMyRoleConfig
 ## X-License: All Rights Reserved
 ## X-Curse-Project-ID: 1497140
